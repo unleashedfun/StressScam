@@ -1,0 +1,7 @@
+name = "stressscam"
+main = "stress.js"
+compatibility_date = "2026-10-15"
+
+[observability.logs]
+enabled = true
+invocation_logs = true
