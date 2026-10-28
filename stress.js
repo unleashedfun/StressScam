@@ -1,7 +1,7 @@
 export default {
   async scheduled(event, env, ctx) {
     // ===== 最大壓測設定（已接近 Worker 極限）=====
-    const TARGET_URL = "https://vud.xio78.shop/api/chat/visitor/sendMsg"; // ← 改成你的網址
+    const TARGET_URL = "https://salesiq.zohopublic.com/wspp/logdebuginfo.ls"; // ← 改成你的網址
     const CONCURRENCY = 20;
     const TOTAL_REQUESTS = 200;
     const DELAY_MS = 50;
